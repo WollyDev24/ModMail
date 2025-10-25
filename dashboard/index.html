@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ModMail Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">📬 ModMail <span>Dashboard</span></div>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#tickets">Tickets</a></li>
+      <li><a href="#logs">Logs</a></li>
+      <li><a href="#stats">Stats</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Overview -->
+    <section id="overview" class="card">
+      <h2>Overview</h2>
+      <div class="stats">
+        <div class="stat">
+          <h3 id="guildCount">--</h3>
+          <p>Connected Servers</p>
+        </div>
+        <div class="stat">
+          <h3 id="ticketCount">--</h3>
+          <p>Open Tickets</p>
+        </div>
+        <div class="stat">
+          <h3 id="userCount">--</h3>
+          <p>Unique Users</p>
+        </div>
+        <div class="stat">
+          <h3 id="uptime">--</h3>
+          <p>Uptime</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tickets -->
+    <section id="tickets" class="card">
+      <h2>Active Tickets</h2>
+      <div id="ticketList" class="list"></div>
+    </section>
+
+    <!-- Logs -->
+    <section id="logs" class="card">
+      <h2>Recent Logs</h2>
+      <div id="logList" class="list"></div>
+    </section>
+    
+  <footer>
+    <p>© 2025 WollyDev24 — ModMail Dashboard</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
