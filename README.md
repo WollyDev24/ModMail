@@ -3,7 +3,6 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/WollyDev24/ModMail?style=for-the-badge)
 ![Last Commit](https://img.shields.io/github/last-commit/WollyDev24/ModMail?style=for-the-badge)
 
-### YouShadeBot got a Rebranding and is now Sharky!
 
 # ModMail
 This is the Code for the YouShade Mod Mail bot, you can use this code to make your own Mod Mail bot!
@@ -13,14 +12,9 @@ This is the Code for the YouShade Mod Mail bot, you can use this code to make yo
 [![Join our Discord](https://img.shields.io/badge/Discord-Join%20Chat-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/bapB8zz7VY)
 
 ## 💻 Features Available
-- 🙍 Greet user via Command
-- 👋 Automatic Greet Message
-- ℹ️ Info Command
-- 🎮 Bot Activity Changer
-- ⌛ Ping Comamnd
-- 🛑 Moderate (only kick as of now)
-- 🎮 Play Rock-Paper-Scissor
-- 💻 Control your bot over terminal (eg. shutdown, see servers, reload cogs and more)
+- Terminal Dashboard with Open Tickets and Control over bot
+- !close to close ticket
+- !brd to send a message to every open ticket
 
 
 ## 🚀 Setup Guide
